@@ -10,7 +10,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"service_owner.json"
 client = vision.ImageAnnotatorClient()
 
 # prepare the images (local source)
-image_dir = r"\google_vision_ai\Ad_image"
+image_dir = r".\image"
 image_files = os.listdir(image_dir)
 
 all_text_detections = []
